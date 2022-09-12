@@ -1,20 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Food LLC</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<h1><p>Our Menu</p></h1>
-       <p>
- <h2>Chicken</h2>
-       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-       </p>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" >Food, LLC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    
+      <ul class="nav navbar-nav navbar-right" >
+        <li style>
+        <a href="#" > 
+        <span class="glyphicon glyphicon-cutlery"></span> chicken</a>
+        </li>
+        <li>
+        <a href="#" >
+        <span class="glyphicon glyphicon-info-sign"></span> beef</a>
+        </li>
+        <li>
+        <a href="#">
+        <span class="glyphicon glyphicon-certificate"></span> sushi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>  
+<h1><p class="text-center">Our Menu</p></h1>
 
+
+<div id="main-content" class="container">
+  <div id="home-tiles" class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+            
+            <p id="chickstory">
+          <h2>Chicken</h2>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis nulla, eleifend sed aliquam quis, feugiat id dui. Pellentesque tincidunt auctor mattis. Suspendisse euismod lorem at lorem consectetur, sit amet pharetra purus tincidunt. Nulla viverra nec turpis sed feugiat. Nam pulvinar nec nibh vitae lobortis. Suspendisse sed eros lobortis, ullamcorper lectus accumsan, maximus nulla. In vel scelerisque ipsum. Donec aliquam sollicitudin turpis, sed porttitor sapien. Mauris feugiat non urna eu malesuada. Fusce sem magna, mollis in cursus in, eleifend sollicitudin nibh. Sed placerat rhoncus velit id consequat. Ut ut ante ut ipsum rutrum vulputate vel non quam. Vestibulum quis mollis odio. Donec eu posuere sem. Donec egestas nec magna sed tempus.
+              Proin et lectus vitae augue finibus tempus vel interdum quam. In mollis ac urna et elementum. Vivamus tincidunt mi vitae dolor dignissim molestie. Maecenas bibendum tincidunt leo id pulvinar. Suspendisse potenti. Mauris gravida non elit sed interdum. Pellentesque at imperdiet orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+              Maecenas tempor iaculis erat a ullamcorper. Nulla facilisi. Integer fringilla, risus efficitur placerat vehicula, nisi justo sagittis augue, sagittis posuere leo est vitae libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur erat a tempus fringilla. Pellentesque in justo et sem scelerisque imperdiet. Maecenas dignissim elit a ipsum varius, id convallis velit euismod. Fusce dui lorem, luctus a euismod vitae, tempus nec mauris. In ac nulla vitae ipsum sodales vestibulum.
+            </p>
+      </div>
+    </div>
+</div>
 
 </body>
 </html>
